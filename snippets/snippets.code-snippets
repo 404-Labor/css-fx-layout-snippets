@@ -1,0 +1,597 @@
+{
+  "Data Layout Row": {
+    "prefix": "data-layout-row",
+    "body": "data-layout=\"row\"",
+    "description": "Data layout for row"
+  },
+  "Data Layout Column": {
+    "prefix": "data-layout-column",
+    "body": "data-layout=\"column\"",
+    "description": "Data layout for column"
+  },
+  "Data Layout Row Reverse": {
+    "prefix": "data-layout-row-reverse",
+    "body": "data-layout=\"row reverse\"",
+    "description": "Data layout for row in reverse"
+  },
+  "Data Layout Column Reverse": {
+    "prefix": "data-layout-column-reverse",
+    "body": "data-layout=\"column reverse\"",
+    "description": "Data layout for column in reverse"
+  },
+  "Data Layout Align Start Center": {
+    "prefix": "data-layout-align-start-center",
+    "body": "data-layout-align=\"start center\"",
+    "description": "Data layout align start on main axis and center on cross axis"
+  },
+  "Data Layout Gap": {
+    "prefix": "data-layout-gap",
+    "body": "data-layout-gap=\"$1px\"",
+    "description": "Data layout gap"
+  },
+  "Data Flex": {
+    "prefix": "data-flex",
+    "body": "data-flex=\"$1\"",
+    "description": "Data flex attribute"
+  },
+   "Data Flex Auto": {
+    "prefix": "data-flex-auto",
+    "body": "data-flex=\"auto\"",
+    "description": "Data flex with auto value"
+  },
+  "Data Flex Grow": {
+    "prefix": "data-flex-grow",
+    "body": "data-flex=\"grow\"",
+    "description": "Data flex with grow value"
+  },
+  "Data Flex Initial": {
+    "prefix": "data-flex-initial",
+    "body": "data-flex=\"initial\"",
+    "description": "Data flex with initial value"
+  },
+  "Data Flex None": {
+    "prefix": "data-flex-none",
+    "body": "data-flex=\"none\"",
+    "description": "Data flex with none value"
+  },
+  "Data Flex NoGrow": {
+    "prefix": "data-flex-nogrow",
+    "body": "data-flex=\"nogrow\"",
+    "description": "Data flex with nogrow value"
+  },
+  "Data Flex NoShrink": {
+    "prefix": "data-flex-noshrink",
+    "body": "data-flex=\"noshrink\"",
+    "description": "Data flex with noshrink value"
+  },
+  "Data Flex Fill": {
+    "prefix": "data-flex-fill",
+    "body": "data-flex-fill",
+    "description": "Data flex fill to make the element fill its container"
+  },
+  "Data Flex Align Start": {
+    "prefix": "data-flex-align-start",
+    "body": "data-flex-align=\"start\"",
+    "description": "Data flex align start"
+  },
+  "Data Flex Align Center": {
+    "prefix": "data-flex-align-center",
+    "body": "data-flex-align=\"center\"",
+    "description": "Data flex align center"
+  },
+   "Data Flex Align End": {
+    "prefix": "data-flex-align-end",
+    "body": "data-flex-align=\"end\"",
+    "description": "Data flex align end"
+  },
+  "Data Flex Align Baseline": {
+    "prefix": "data-flex-align-baseline",
+    "body": "data-flex-align=\"baseline\"",
+    "description": "Data flex align baseline"
+  },
+  "Data Flex Align Stretch": {
+    "prefix": "data-flex-align-stretch",
+    "body": "data-flex-align=\"stretch\"",
+    "description": "Data flex align stretch"
+  },
+  "Data Layout XS": {
+    "prefix": "data-layout-xs",
+    "body": "data-layout-xs=\"$1\"",
+    "description": "Data layout for extra small screens"
+  },
+  "Data Layout SM": {
+    "prefix": "data-layout-sm",
+    "body": "data-layout-sm=\"$1\"",
+    "description": "Data layout for small screens"
+  },
+  "Data Layout MD": {
+    "prefix": "data-layout-md",
+    "body": "data-layout-md=\"$1\"",
+    "description": "Data layout for medium screens"
+  },
+  "Data Layout LG": {
+    "prefix": "data-layout-lg",
+    "body": "data-layout-lg=\"$1\"",
+    "description": "Data layout for large screens"
+  },
+  "Data Layout XL": {
+    "prefix": "data-layout-xl",
+    "body": "data-layout-xl=\"$1\"",
+    "description": "Data layout for extra large screens"
+  },
+  "Data Show XS": {
+    "prefix": "data-show-xs",
+    "body": "data-show-xs",
+    "description": "Show element on extra small screens"
+  },
+   "Data Hide XS": {
+    "prefix": "data-hide-xs",
+    "body": "data-hide-xs",
+    "description": "Hide element on extra small screens"
+  },
+  "Data Show SM": {
+    "prefix": "data-show-sm",
+    "body": "data-show-sm",
+    "description": "Show element on small screens"
+  },
+  "Data Hide SM": {
+    "prefix": "data-hide-sm",
+    "body": "data-hide-sm",
+    "description": "Hide element on small screens"
+  },
+  "Data Show MD": {
+    "prefix": "data-show-md",
+    "body": "data-show-md",
+    "description": "Show element on medium screens"
+  },
+  "Data Hide MD": {
+    "prefix": "data-hide-md",
+    "body": "data-hide-md",
+    "description": "Hide element on medium screens"
+  },
+  "Data Show LG": {
+    "prefix": "data-show-lg",
+    "body": "data-show-lg",
+    "description": "Show element on large screens"
+  },
+  "Data Hide LG": {
+    "prefix": "data-hide-lg",
+    "body": "data-hide-lg",
+    "description": "Hide element on large screens"
+  },
+  "Data Show XL": {
+    "prefix": "data-show-xl",
+    "body": "data-show-xl",
+    "description": "Show element on extra large screens"
+  },
+  "Data Hide XL": {
+    "prefix": "data-hide-xl",
+    "body": "data-hide-xl",
+    "description": "Hide element on extra large screens"
+  },
+  "Data Flex XS": {
+    "prefix": "data-flex-xs",
+    "body": "data-flex-xs=\"$1\"",
+    "description": "Data flex for extra small screens"
+  },
+  "Data Flex SM": {
+    "prefix": "data-flex-sm",
+    "body": "data-flex-sm=\"$1\"",
+    "description": "Data flex for small screens"
+  },
+  "Data Flex MD": {
+    "prefix": "data-flex-md",
+    "body": "data-flex-md=\"$1\"",
+    "description": "Data flex for medium screens"
+  },
+  "Data Flex LG": {
+    "prefix": "data-flex-lg",
+    "body": "data-flex-lg=\"$1\"",
+    "description": "Data flex for large screens"
+  },
+  "Data Flex XL": {
+    "prefix": "data-flex-xl",
+    "body": "data-flex-xl=\"$1\"",
+    "description": "Data flex for extra large screens"
+  },
+  "Data Layout Align XS": {
+    "prefix": "data-layout-align-xs",
+    "body": "data-layout-align-xs=\"$1\"",
+    "description": "Data layout align for extra small screens"
+  },
+  "Data Layout Align SM": {
+    "prefix": "data-layout-align-sm",
+    "body": "data-layout-align-sm=\"$1\"",
+    "description": "Data layout align for small screens"
+  },
+  "Data Layout Align MD": {
+    "prefix": "data-layout-align-md",
+    "body": "data-layout-align-md=\"$1\"",
+    "description": "Data layout align for medium screens"
+  },
+  "Data Layout Align LG": {
+    "prefix": "data-layout-align-lg",
+    "body": "data-layout-align-lg=\"$1\"",
+    "description": "Data layout align for large screens"
+  },
+  "Data Layout Align XL": {
+    "prefix": "data-layout-align-xl",
+    "body": "data-layout-align-xl=\"$1\"",
+    "description": "Data layout align for extra large screens"
+  },
+   "Data Layout Gap XS": {
+    "prefix": "data-layout-gap-xs",
+    "body": "data-layout-gap-xs=\"$1\"",
+    "description": "Data layout gap for extra small screens"
+  },
+  "Data Layout Gap SM": {
+    "prefix": "data-layout-gap-sm",
+    "body": "data-layout-gap-sm=\"$1\"",
+    "description": "Data layout gap for small screens"
+  },
+  "Data Layout Gap MD": {
+    "prefix": "data-layout-gap-md",
+    "body": "data-layout-gap-md=\"$1\"",
+    "description": "Data layout gap for medium screens"
+  },
+  "Data Layout Gap LG": {
+    "prefix": "data-layout-gap-lg",
+    "body": "data-layout-gap-lg=\"$1\"",
+    "description": "Data layout gap for large screens"
+  },
+  "Data Layout Gap XL": {
+    "prefix": "data-layout-gap-xl",
+    "body": "data-layout-gap-xl=\"$1\"",
+    "description": "Data layout gap for extra large screens"
+  },
+  "Data Flex Fill XS": {
+    "prefix": "data-flex-fill-xs",
+    "body": "data-flex-fill-xs",
+    "description": "Data flex fill for extra small screens"
+  },
+  "Data Flex Fill SM": {
+    "prefix": "data-flex-fill-sm",
+    "body": "data-flex-fill-sm",
+    "description": "Data flex fill for small screens"
+  },
+  "Data Flex Fill MD": {
+    "prefix": "data-flex-fill-md",
+    "body": "data-flex-fill-md",
+    "description": "Data flex fill for medium screens"
+  },
+  "Data Flex Fill LG": {
+    "prefix": "data-flex-fill-lg",
+    "body": "data-flex-fill-lg",
+    "description": "Data flex fill for large screens"
+  },
+  "Data Flex Fill XL": {
+    "prefix": "data-flex-fill-xl",
+    "body": "data-flex-fill-xl",
+    "description": "Data flex fill for extra large screens"
+  },
+  "Data Flex Align XS Start": {
+    "prefix": "data-flex-align-xs-start",
+    "body": "data-flex-align-xs=\"start\"",
+    "description": "Data flex align start for extra small screens"
+  },
+  "Data Flex Align XS Center": {
+    "prefix": "data-flex-align-xs-center",
+    "body": "data-flex-align-xs=\"center\"",
+    "description": "Data flex align center for extra small screens"
+  },
+  "Data Flex Align XS End": {
+    "prefix": "data-flex-align-xs-end",
+    "body": "data-flex-align-xs=\"end\"",
+    "description": "Data flex align end for extra small screens"
+  },
+  "Data Flex Align XS Baseline": {
+    "prefix": "data-flex-align-xs-baseline",
+    "body": "data-flex-align-xs=\"baseline\"",
+    "description": "Data flex align baseline for extra small screens"
+  },
+  "Data Flex Align XS Stretch": {
+    "prefix": "data-flex-align-xs-stretch",
+    "body": "data-flex-align-xs=\"stretch\"",
+    "description": "Data flex align stretch for extra small screens"
+  },
+  "Data Flex Align SM Start": {
+    "prefix": "data-flex-align-sm-start",
+    "body": "data-flex-align-sm=\"start\"",
+    "description": "Data flex align start for small screens"
+  },
+  "Data Flex Align SM Center": {
+    "prefix": "data-flex-align-sm-center",
+    "body": "data-flex-align-sm=\"center\"",
+    "description": "Data flex align center for small screens"
+  },
+  "Data Flex Align SM End": {
+    "prefix": "data-flex-align-sm-end",
+    "body": "data-flex-align-sm=\"end\"",
+    "description": "Data flex align end for small screens"
+  },
+  "Data Flex Align SM Baseline": {
+    "prefix": "data-flex-align-sm-baseline",
+    "body": "data-flex-align-sm=\"baseline\"",
+    "description": "Data flex align baseline for small screens"
+  },
+  "Data Flex Align SM Stretch": {
+    "prefix": "data-flex-align-sm-stretch",
+    "body": "data-flex-align-sm=\"stretch\"",
+    "description": "Data flex align stretch for small screens"
+  },
+  "Data Flex Align MD Start": {
+    "prefix": "data-flex-align-md-start",
+    "body": "data-flex-align-md=\"start\"",
+    "description": "Data flex align start for medium screens"
+  },
+  "Data Flex Align MD Center": {
+    "prefix": "data-flex-align-md-center",
+    "body": "data-flex-align-md=\"center\"",
+    "description": "Data flex align center for medium screens"
+  },
+  "Data Flex Align MD End": {
+    "prefix": "data-flex-align-md-end",
+    "body": "data-flex-align-md=\"end\"",
+    "description": "Data flex align end for medium screens"
+  },
+  "Data Flex Align MD Baseline": {
+    "prefix": "data-flex-align-md-baseline",
+    "body": "data-flex-align-md=\"baseline\"",
+    "description": "Data flex align baseline for medium screens"
+  },
+  "Data Flex Align MD Stretch": {
+    "prefix": "data-flex-align-md-stretch",
+    "body": "data-flex-align-md=\"stretch\"",
+    "description": "Data flex align stretch for medium screens"
+  },
+  "Data Flex Align LG Start": {
+    "prefix": "data-flex-align-lg-start",
+    "body": "data-flex-align-lg=\"start\"",
+    "description": "Data flex align start for large screens"
+  },
+  "Data Flex Align LG Center": {
+    "prefix": "data-flex-align-lg-center",
+    "body": "data-flex-align-lg=\"center\"",
+    "description": "Data flex align center for large screens"
+  },
+  "Data Flex Align LG End": {
+    "prefix": "data-flex-align-lg-end",
+    "body": "data-flex-align-lg=\"end\"",
+    "description": "Data flex align end for large screens"
+  },
+  "Data Flex Align LG Baseline": {
+    "prefix": "data-flex-align-lg-baseline",
+    "body": "data-flex-align-lg=\"baseline\"",
+    "description": "Data flex align baseline for large screens"
+  },
+  "Data Flex Align LG Stretch": {
+    "prefix": "data-flex-align-lg-stretch",
+    "body": "data-flex-align-lg=\"stretch\"",
+    "description": "Data flex align stretch for large screens"
+  },
+  "Data Flex Align XL Start": {
+    "prefix": "data-flex-align-xl-start",
+    "body": "data-flex-align-xl=\"start\"",
+    "description": "Data flex align start for lower then extra small screens"
+  },
+  "Data Flex Align XL Center": {
+    "prefix": "data-flex-align-xl-center",
+    "body": "data-flex-align-xl=\"center\"",
+    "description": "Data flex align center for lower then extra small screens"
+  },
+  "Data Flex Align XL End": {
+    "prefix": "data-flex-align-xl-end",
+    "body": "data-flex-align-xl=\"end\"",
+    "description": "Data flex align end for lower then extra small screens"
+  },
+  "Data Flex Align XL Baseline": {
+    "prefix": "data-flex-align-xl-baseline",
+    "body": "data-flex-align-xl=\"baseline\"",
+    "description": "Data flex align baseline for lower then extra small screens"
+  },
+  "Data Flex Align XL Stretch": {
+    "prefix": "data-flex-align-xl-stretch",
+    "body": "data-flex-align-xl=\"stretch\"",
+    "description": "Data flex align stretch for lower then extra small screens"
+  },
+  "Data Flex Align LT-SM Start": {
+    "prefix": "data-flex-align-lt-sm-start",
+    "body": "data-flex-align-lt-sm=\"start\"",
+    "description": "Data flex align start for lower then small screens"
+  },
+  "Data Flex Align LT-SM Center": {
+    "prefix": "data-flex-align-lt-sm-center",
+    "body": "data-flex-align-lt-sm=\"center\"",
+    "description": "Data flex align center for lower then small screens"
+  },
+  "Data Flex Align LT-SM End": {
+    "prefix": "data-flex-align-lt-sm-end",
+    "body": "data-flex-align-lt-sm=\"end\"",
+    "description": "Data flex align end for lower then small screens"
+  },
+  "Data Flex Align LT-SM Baseline": {
+    "prefix": "data-flex-align-lt-sm-baseline",
+    "body": "data-flex-align-lt-sm=\"baseline\"",
+    "description": "Data flex align baseline for lower then small screens"
+  },
+  "Data Flex Align LT-SM Stretch": {
+    "prefix": "data-flex-align-lt-sm-stretch",
+    "body": "data-flex-align-lt-sm=\"stretch\"",
+    "description": "Data flex align stretch for lower then small screens"
+  },
+  "Data Flex Align LT-MD Start": {
+    "prefix": "data-flex-align-lt-md-start",
+    "body": "data-flex-align-lt-md=\"start\"",
+    "description": "Data flex align start for lower then medium screens"
+  },
+  "Data Flex Align LT-MD Center": {
+    "prefix": "data-flex-align-lt-md-center",
+    "body": "data-flex-align-lt-md=\"center\"",
+    "description": "Data flex align center for lower then medium screens"
+  },
+  "Data Flex Align LT-MD End": {
+    "prefix": "data-flex-align-lt-md-end",
+    "body": "data-flex-align-lt-md=\"end\"",
+    "description": "Data flex align end for lower then medium screens"
+  },
+  "Data Flex Align LT-MD Baseline": {
+    "prefix": "data-flex-align-lt-md-baseline",
+    "body": "data-flex-align-lt-md=\"baseline\"",
+    "description": "Data flex align baseline for lower then medium screens"
+  },
+  "Data Flex Align LT-MD Stretch": {
+    "prefix": "data-flex-align-lt-md-stretch",
+    "body": "data-flex-align-lt-md=\"stretch\"",
+    "description": "Data flex align stretch for lower then medium screens"
+  },
+  "Data Flex Align LT-LG Start": {
+    "prefix": "data-flex-align-lt-lg-start",
+    "body": "data-flex-align-lt-lg=\"start\"",
+    "description": "Data flex align start for lower then large screens"
+  },
+  "Data Flex Align LT-LG Center": {
+    "prefix": "data-flex-align-lt-lg-center",
+    "body": "data-flex-align-lt-lg=\"center\"",
+    "description": "Data flex align center for lower then large screens"
+  },
+  "Data Flex Align LT-LG End": {
+    "prefix": "data-flex-align-lt-lg-end",
+    "body": "data-flex-align-lt-lg=\"end\"",
+    "description": "Data flex align end for lower then large screens"
+  },
+  "Data Flex Align LT-LG Baseline": {
+    "prefix": "data-flex-align-lt-lg-baseline",
+    "body": "data-flex-align-lt-lg=\"baseline\"",
+    "description": "Data flex align baseline for lower then large screens"
+  },
+  "Data Flex Align LT-LG Stretch": {
+    "prefix": "data-flex-align-lt-lg-stretch",
+    "body": "data-flex-align-lt-lg=\"stretch\"",
+    "description": "Data flex align stretch for lower then large screens"
+  },
+  "Data Flex Align LT-XL Start": {
+    "prefix": "data-flex-align-lt-xl-start",
+    "body": "data-flex-align-lt-xl=\"start\"",
+    "description": "Data flex align start for lower then extra large screens"
+  },
+  "Data Flex Align LT-XL Center": {
+    "prefix": "data-flex-align-lt-xl-center",
+    "body": "data-flex-align-lt-xl=\"center\"",
+    "description": "Data flex align center for lower then extra large screens"
+  },
+  "Data Flex Align LT-XL End": {
+    "prefix": "data-flex-align-lt-xl-end",
+    "body": "data-flex-align-lt-xl=\"end\"",
+    "description": "Data flex align end for lower then extra large screens"
+  },
+  "Data Flex Align LT-XL Baseline": {
+    "prefix": "data-flex-align-lt-xl-baseline",
+    "body": "data-flex-align-lt-xl=\"baseline\"",
+    "description": "Data flex align baseline for lower then extra large screens"
+  },
+  "Data Flex Align LT-XL Stretch": {
+    "prefix": "data-flex-align-lt-xl-stretch",
+    "body": "data-flex-align-lt-xl=\"stretch\"",
+    "description": "Data flex align stretch for lower then extra large screens"
+  },
+  "Data Flex Align GT-XS Start": {
+    "prefix": "data-flex-align-gt-xs-start",
+    "body": "data-flex-align-gt-xs=\"start\"",
+    "description": "Data flex align start for extra greater then small screens"
+  },
+  "Data Flex Align GT-XS Center": {
+    "prefix": "data-flex-align-gt-xs-center",
+    "body": "data-flex-align-gt-xs=\"center\"",
+    "description": "Data flex align center for extra greater then small screens"
+  },
+  "Data Flex Align GT-XS End": {
+    "prefix": "data-flex-align-gt-xs-end",
+    "body": "data-flex-align-gt-xs=\"end\"",
+    "description": "Data flex align end for extra greater then small screens"
+  },
+  "Data Flex Align GT-XS Baseline": {
+    "prefix": "data-flex-align-gt-xs-baseline",
+    "body": "data-flex-align-gt-xs=\"baseline\"",
+    "description": "Data flex align baseline for extra greater then small screens"
+  },
+  "Data Flex Align GT-XS Stretch": {
+    "prefix": "data-flex-align-gt-xs-stretch",
+    "body": "data-flex-align-gt-xs=\"stretch\"",
+    "description": "Data flex align stretch for extra greater then small screens"
+  },
+  "Data Flex Align GT-SM Start": {
+    "prefix": "data-flex-align-gt-sm-start",
+    "body": "data-flex-align-gt-sm=\"start\"",
+    "description": "Data flex align start for extra greater then small screens"
+  },
+  "Data Flex Align GT-SM Center": {
+    "prefix": "data-flex-align-gt-sm-center",
+    "body": "data-flex-align-gt-sm=\"center\"",
+    "description": "Data flex align center for extra greater then small screens"
+  },
+  "Data Flex Align GT-SM End": {
+    "prefix": "data-flex-align-gt-sm-end",
+    "body": "data-flex-align-gt-sm=\"end\"",
+    "description": "Data flex align end for extra greater then small screens"
+  },
+  "Data Flex Align GT-SM Baseline": {
+    "prefix": "data-flex-align-gt-sm-baseline",
+    "body": "data-flex-align-gt-sm=\"baseline\"",
+    "description": "Data flex align baseline for extra greater then small screens"
+  },
+  "Data Flex Align GT-SM Stretch": {
+    "prefix": "data-flex-align-gt-sm-stretch",
+    "body": "data-flex-align-gt-sm=\"stretch\"",
+    "description": "Data flex align stretch for extra greater then small screens"
+  },
+  "Data Flex Align GT-MD Start": {
+    "prefix": "data-flex-align-gt-md-start",
+    "body": "data-flex-align-gt-md=\"start\"",
+    "description": "Data flex align start for greater then medium screens"
+  },
+  "Data Flex Align GT-MD Center": {
+    "prefix": "data-flex-align-gt-md-center",
+    "body": "data-flex-align-gt-md=\"center\"",
+    "description": "Data flex align center for greater then medium screens"
+  },
+  "Data Flex Align GT-MD End": {
+    "prefix": "data-flex-align-gt-md-end",
+    "body": "data-flex-align-gt-md=\"end\"",
+    "description": "Data flex align end for greater then medium screens"
+  },
+  "Data Flex Align GT-MD Baseline": {
+    "prefix": "data-flex-align-gt-md-baseline",
+    "body": "data-flex-align-gt-md=\"baseline\"",
+    "description": "Data flex align baseline for greater then medium screens"
+  },
+  "Data Flex Align GT-MD Stretch": {
+    "prefix": "data-flex-align-gt-md-stretch",
+    "body": "data-flex-align-gt-md=\"stretch\"",
+    "description": "Data flex align stretch for greater then medium screens"
+  },
+  "Data Flex Align GT-LG Start": {
+    "prefix": "data-flex-align-gt-lg-start",
+    "body": "data-flex-align-gt-lg=\"start\"",
+    "description": "Data flex align start for greater then large screens"
+  },
+  "Data Flex Align GT-LG Center": {
+    "prefix": "data-flex-align-gt-lg-center",
+    "body": "data-flex-align-gt-lg=\"center\"",
+    "description": "Data flex align center for greater then large screens"
+  },
+  "Data Flex Align GT-LG End": {
+    "prefix": "data-flex-align-gt-lg-end",
+    "body": "data-flex-align-gt-lg=\"end\"",
+    "description": "Data flex align end for greater then large screens"
+  },
+  "Data Flex Align GT-LG Baseline": {
+    "prefix": "data-flex-align-gt-lg-baseline",
+    "body": "data-flex-align-gt-lg=\"baseline\"",
+    "description": "Data flex align baseline for greater then large screens"
+  },
+  "Data Flex Align GT-LG Stretch": {
+    "prefix": "data-flex-align-gt-lg-stretch",
+    "body": "data-flex-align-gt-lg=\"stretch\"",
+    "description": "Data flex align stretch for greater then large screens"
+  },
+}

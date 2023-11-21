@@ -1,0 +1,30 @@
+{
+  "name": "css-fx-layout-snippets",
+  "displayName": "css-fx-layout-snippets",
+  "description": "css-fx-layout: A SCSS flexbox library inspired by Angular's Flex-Layout. Offers CSS classes and data-attributes for responsive design, with features like gap control, and flexible element visibility. Ideal for Angular and non-Angular projects.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/404-Labor/css-fx-layout-snippets"
+  },
+  "author": {
+    "name": "404-Labor",
+    "email": "hello@404-labor.de",
+    "url": "https://404-labor.de"
+  },
+  "icon": "./icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
