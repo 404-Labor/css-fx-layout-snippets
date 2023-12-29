@@ -1,65 +1,48 @@
-# css-fx-layout-vs-code README
+# css-fx-layout Snippets for VS Code
 
-This is the README for your extension "css-fx-layout-vs-code". After writing up a brief description, we recommend including the following sections.
+This extension provides a set of handy snippets for `css-fx-layout`, a lightweight and modular SCSS flexbox library inspired by Angular's Flex-Layout.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Rapid Development**: Speed up your coding process with easy-to-use snippets.
+- **Flexbox Made Simple**: Utilize CSS classes or data-attributes to quickly implement flexbox designs.
+- **Responsive Layouts**: Create responsive layouts with predefined breakpoints.
+- **Versatile Selectors**: Choose between CSS classes and HTML data-attributes for layout control.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open VS Code.
+2. Go to the Extensions view by clicking on the square icon in the sidebar or pressing `Ctrl+Shift+X`.
+3. Search for `css-fx-layout Snippets`.
+4. Click on the install button.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Snippets
 
-## Requirements
+Here are some of the snippets provided by this extension:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- `data-layout`, `data-layout-align`: HTML attributes for flexbox control.
+- `data-layout-gap`: Attribute for gaps in flex containers.
+- `data-hide-`, `data-show-`: Control visibility based on screen size.
+- `data-flex`: Control flex behavior of an element.
+<!-- 
+- `.fx-layout-`, `.fx-align-`: Control the flexbox container.
+- `.fx-gap--`: Add gaps in flex containers.
+- `.show-`, `.hide-`: Show or hide elements based on screen size.
+- `.fx-flex`, `.fx-flex-grow`: Manage element flex behavior. 
+-->
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+To use a snippet, start typing the prefix in your HTML or CSS file, and the corresponding snippet suggestions will appear. Select the one you need and press `Enter` to insert it.
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+Contributions to enhance these snippets or add new ones are welcome. Please submit your pull requests or issues on the GitHub repository.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+This extension is released under the [MIT License](LICENSE).
 
 ---
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
