@@ -15,7 +15,8 @@
     "email": "hello@404-labor.de",
     "url": "https://404-labor.de"
   },
-  "icon": "./icon.png",
+  "publisher": "404-Labor",
+  "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
